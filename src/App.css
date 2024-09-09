@@ -1028,6 +1028,9 @@
 }
 
 @media only screen and (max-width:435px) {
+   .ab-content{
+    text-align: center;
+  }
 
   .aboutus-section {
     position: relative;
@@ -1728,6 +1731,9 @@
 }
 
 @media only screen and (max-width:435px) {
+    .header-title h1{
+    font-size: 50px;
+  }
   .service-section {
     position: relative;
     top: -160px;
@@ -1853,6 +1859,13 @@
 }
 
 @media only screen and (max-width:435px) {
+    .header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+  }
   .team-header img {
     width: 100%;
     height: 600px;
@@ -2031,7 +2044,6 @@
 @media only screen and (max-width:435px) {
   .contact-header img {
     height: 600px;
-
   }
 
   .header-title h1 {
