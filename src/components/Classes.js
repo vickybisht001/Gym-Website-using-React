@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
-
-export class Classes extends Component {
-  render() {
-    return (
-      <>
-        <div className="classes">
-          <img src="https://preview.colorlib.com/theme/gymlife/img/breadcrumb-bg.jpg.webp" alt="" />
-          <div className='class-text'>
-            <h1>classes details</h1>
+import { useEffect } from "react"
+const Classes = () => {
+    useEffect(() => {
+  document.title = 'Classes in my Fitness - GYM'
+    
+    }, [])
+  return (
+   <section className="classes">
+          <div className='bg-section'>
+            <div className="bg-text">
+            <h1>classes</h1>
+            </div>
           </div>
           <div className='classes-details'>
             <div className='classes-details-text'>
@@ -27,14 +29,12 @@ export class Classes extends Component {
                   <a href="/"><i className='bx bxl-twitter'></i></a>
                   <a href="/"><i className='bx bxl-youtube'></i></a>
                   <a href="/"><i className='bx bxl-instagram'></i></a>
-
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eum rerum? Praesentium ratione odio eligendi saepe atque facilis minus odit non, quidem, impedit ducimus similique minima facere, quas est enim.</p>
                   <div className='tr-details'>
                     <ul>
                       <div className='d-flex justify-content-between my-1'>
                         <li>Age</li>
                         <span>35</span>
-
                       </div>
                       <div className='d-flex justify-content-between my-1'>
                         <li>weight</li>
@@ -48,50 +48,39 @@ export class Classes extends Component {
                         <li>occuption</li>
                         <span>no-founder</span>
                       </div>
-
                     </ul>
                   </div>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, eligendi doloremque expedita nostrum quos eaque incidunt esse id molestias odit, iste atque in aliquam facilis, a ullam dolorem dignissimos aperiam!</p>
-
                 </div>
               </div>
-
-
-
             </div>
             <div className='classes-categories'>
               <div className='so-categories'>
                 <h5>categories</h5>
                 <ul className='ct-list'>
                   <div className='d-flex justify-content-between my-1'>
-
                     <li><a href="#">yoga</a></li>
                     <span>12</span>
                   </div>
                   <div className='d-flex justify-content-between my-2'>
                     <li><a href="#">running</a></li>
                     <span>32</span>
-
                   </div>
                   <div className='d-flex justify-content-between my-2'>
                     <li><a href="#">weightloss</a></li>
                     <span>86</span>
-
                   </div>
                   <div className='d-flex justify-content-between my-2'>
                     <li><a href="#">cario</a></li>
                     <span>25</span>
-
                   </div>
                   <div className='d-flex justify-content-between my-2'>
-
                     <li><a href="#">body building</a></li>
                     <span>36</span>
                   </div>
                   <div className='d-flex justify-content-between my-2'>
                     <li><a href="#">nutrition</a></li>
                     <span>45</span>
-
                   </div>
                 </ul>
               </div>
@@ -128,14 +117,9 @@ export class Classes extends Component {
                 </div>
                 <div className='lt-banner'>
                   <img src="https://preview.colorlib.com/theme/gymlife/img/sidebar-banner.jpg.webp" alt="" />
-
                 </div>
-
               </div>
             </div>
-
-
-
           </div>
 
           <div className='class-timetable'>
@@ -177,7 +161,6 @@ export class Classes extends Component {
                       </td>
                       <td className='tb-content'>
                         <hr />
-
                       </td>
                       <td className='tb-content'>
                         <h5>boxing</h5>
@@ -214,7 +197,6 @@ export class Classes extends Component {
                         <span>Rachel Adam</span>
                       </td>
                       <td className='tb-content'>
-
                       </td>
                     </tr>
                     <tr>
@@ -280,18 +262,11 @@ export class Classes extends Component {
                     </tr>
                   </tbody>
                 </table>
-
               </div>
-
             </div>
           </div>
-        </div>
-
-
-
-      </>
-    )
-  }
+        </section>
+  )
 }
 
 export default Classes
